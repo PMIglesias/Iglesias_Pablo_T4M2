@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font: 400 15px/1.8 sans-serif;
+    background: #f2efe5;
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar .navbar-brand img {
+    height: 40px;
+}
+
+.navbar {
+    border: 0;
+    letter-spacing: 4px;
+    opacity: 0.9;
+    padding: 0;
+}
+
+.nav-link{
+    color: #29292c;
+}
+
+.navbar-nav li a {
+    line-height: 20px;
+    display: block;
+    padding: 10px 15px;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #2d2d30;
+    color: #d5d5d5;
+} 
+
+.navbar .navbar-brand {
+    padding: 0 0.6em;
+}
+
+.active a {
+    color: #fff !important;
+    background-color: #29292c !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.container-fluid {
+    margin: 0;
+}
+
+h2{
+    color: #d5d5d5;
+}
+
+footer .fa {
+    font-size: 30px;
+    margin-left: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 25%;
+    color: #d5d5d5;
+    border-color: #d5d5d5;
+}
+
+.navbar-toggler{
+    border:none;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.active {
+	background: #DA0368; 
+    color: #000;
+    font-weight: bold;
+}
+
+rect {
+    color: white;
+}
+
+.table{
+    border: #000;
+}
+.table th{
+    background: #cccccc;
+}
+table tr {
+    height: 40px;
+}

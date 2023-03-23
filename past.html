@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">    
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">    
+  <link rel="stylesheet" href="./assets/style.css">
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+  <script src="https://kit.fontawesome.com/a366d28512.js"></script>
+  <title>Past Events</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-default fixed-top">
+    <div class="container-fluid shadow">
+      <img class="navbar-brand" src="./assets/images/Logo.png" alt="" height="40">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <svg viewBox="0 0 100 50" width="40" height="40">
+          <rect width="80" height="10"></rect>
+          <rect y="20" width="80" height="10"></rect>
+          <rect y="40" width="80" height="10"></rect>
+        </svg>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li><a class="nav-link" href="./index.html">Home</a></li>
+            <li><a class="nav-link" href="./upcoming.html">Upcoming Events</a></li>
+            <li><a class="nav-link active" href="#">Past Events</a></li>
+            <li><a class="nav-link" href="./contact.html">contact</a></li>
+            <li><a class="nav-link" href="./stats.html">stats</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Home" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Home</title><rect width="100%" height="100%" fill="#c4c4c4"></rect><text x="50%"  y="50%" fill="#555" dy=".3em" text-anchor="middle"><a class="display-2" href="#">Home</a></text></svg>
+  
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Upcoming Events" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Upcoming Events</title><rect width="100%" height="100%" fill="#b2b2b2"></rect><text x="50%" y="50%" fill="#444" dy=".3em" text-anchor="middle"><a class="display-2" href="#">Upcoming Events</a></text></svg>
+  
+      </div>
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Past Events" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Past Events</title><rect width="100%" height="100%" fill="#a0a0a0"></rect><text x="50%" y="50%" fill="#333" dy=".3em" text-anchor="middle"><a class="display-2" href="#">Past Events</a></text></svg>
+  
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: contact" preserveAspectRatio="xMidYMid slice" focusable="false"><title>contact</title><rect width="100%" height="100%" fill="#8e8e8e"></rect><text x="50%" y="50%" fill="#333" dy=".3em" text-anchor="middle"><a class="display-2" href="#">contact</a></text></svg>
+  
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: stats" preserveAspectRatio="xMidYMid slice" focusable="false"><title>stats</title><rect width="100%" height="100%" fill="#7c7c7c"></rect><text x="50%" y="50%" fill="#333" dy=".3em" text-anchor="middle"><a class="display-2" href="#">stats</a></text></svg>
+  
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<div class="container-fluid p-5 ">
+  <div class="row">
+    <div class="col-md-8">
+      <div id="checkboxes-container" class="">
+      </div>
+    </div>
+    <div class="col-12 col-md-12 col-xl-4">
+      <div class="form-check ms-auto">
+          <div class="input-group">
+            <input type="text" id="search-box" class="form-control border border-end-0" placeholder="Search events...">
+            <span class="input-group-append">
+                  <button class="btn btn-secondary" type="button">
+                      <i class="fa fa-search"></i>
+                  </button>
+              </span>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="containercards" class="row justify-content-center p-5">
+</div>
+
+<footer class="bg-dark text-white fixed-bottom p-4">
+  <div class="row align-items-center">
+    <div class="col">
+    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://www.whatsapp.com/" class="fa fa-whatsapp"></a>           
+    </div>
+    <div class="col text-end">
+      <h2>Cohort</h2>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./scripts/past.js"></script>
+</body>
+</html>
